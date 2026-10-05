@@ -1,0 +1,44 @@
+```css * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+
+h1 {
+    background-color: rgba(30, 100, 180, 0.8);
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    margin-bottom: 2rem;
+}
+
+nav a {
+    margin-right: 1rem;
+    color: #1e64b4;
+}
+
+.karte {
+    width: 20rem;
+    padding: 1rem;
+    border: 2px solid #1e64b4;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.karte h2 {
+    margin-top: 0;
+}
+
+.karte img {
+    max-width: 100%;
+    height: auto;
+}
+
+```
