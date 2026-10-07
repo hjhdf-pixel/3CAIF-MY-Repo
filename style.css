@@ -13,6 +13,7 @@ h1 {
     background-color: rgba(30, 100, 180, 0.8);
     color: white;
     padding: 1rem;
+    border: 2px solid black
 }
 
 nav {
@@ -39,4 +40,26 @@ nav a {
 .karte img {
     max-width: 100%;
     height: auto;
+}
+
+
+
+nav a:hover {
+    background-color: deepskyblue;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+textarea {
+    font-weight: bold;
+    padding-left: 5px;
 }
